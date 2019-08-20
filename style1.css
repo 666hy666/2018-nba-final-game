@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0; list-style:none; outline:none; border:0; background:none;}
+body{font-size:14px; font-family:"微软雅黑";}
+a:link,a:visited{color:#fff; text-decoration:none;}
+a:hover{text-decoration:none;}
+.head{
+	width:980px; 
+	margin:0 auto; 
+	height:50px; 
+	padding-top:10px;
+}
+.head .left{float:left;}
+.head .text{
+	font-family:"楷体";
+	font-size:35px;
+	font-weight:bold;
+	color:black;
+	float:right;
+}
+#nav{
+	width:100%; 
+	background:#06F;
+}
+.nav{
+	width:980px;  
+	height:35px;
+	line-height:35px;
+	margin:0 auto; 
+	text-align:center; 
+	font-size:14px;
+}
+.nav li{float:left;}
+.nav a{
+	display:inline-block; 
+	padding:0 40px;
+}
+.nav a:hover{background:#09F;}
+.nav .aa{background:#09F;}
+.banner{
+	width:100%; 
+	height:580px; 
+	position:relative; 
+	overflow:hidden;
+}
+.bb{
+	position:absolute; 
+	left:50%; 
+	top:0; 
+	margin-left:-960px;
+}
+.footer{
+	width:100%; 
+	height:50px; 
+	line-height:45px; 
+	text-align:center; 
+	background:#06F; 
+}
+#first{
+	width: 1100px;
+	margin: 0 auto;
+}
+h1{ 
+	font-weight:100; 
+	font-size:24px; 
+	padding:40px 0; 
+	border-bottom:7px solid yellow;
+}
+#first dl{
+	width:1100px;
+	height:220px;
+}
+#first .d1{
+	width:145px; 
+	height:160px; 
+	background:url(images/logo2.jpg) center center no-repeat; 
+	float:left;
+}
+#first .d2{
+	width:145px; 
+	height:160px; 
+	background:url(images/logo1.jpg) center center no-repeat; 
+	float:right;
+}
+#first p{
+	width:750px; 
+	padding:20px 0 0 30px; 
+	float:left;
+}
+#first .txt1{
+	color:#6b6862; 
+	line-height:24px;
+}
+.imgbox1{
+	width:1050px;
+	padding:0 20px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.imgbox1 img{
+	width:250px; 
+	height:129px; 
+	padding:2px;
+}
+.imgbox1 a{margin-right:20px;}
+#second{
+	width: 1100px;
+	margin: 0 auto;
+}
+#second dl{
+	width:1100px;
+	height:220px;
+}
+#second p{
+	width:1100px; 
+	padding:20px 0 0 0; 
+	float:left;
+}
+#second .txt2{
+	color:#6b6862; 
+	line-height:24px;
+}
+.imgbox2{
+	width:1050px;
+	white-space:nowrap;
+}
+.imgbox2 img{
+	width:525px; 
+	height:300px; 
+	padding:2px;
+}
+.imgbox2 a{margin-right:20px;}
+#third{
+	width: 1100px;
+	margin: 0 auto;
+}
+#third dl{
+	width:1100px;
+	height:220px;
+}
+#third p{
+	width:1100px; 
+	padding:20px 0 0 0; 
+	float:left;
+}
+#third .txt3{
+	color:#6b6862; 
+	line-height:24px;
+}
+.imgbox3{
+	width:1050px;
+	white-space:nowrap;
+}
+.imgbox3 img{
+	width:525px; 
+	height:300px; 
+	padding:2px;
+}
+.imgbox3 a{margin-right:20px;}
+.imgr{
+	position:fixed; 
+	right:5%;
+	bottom:5%;
+}
+.imgl{
+	position:fixed; 
+	left:5%;
+	bottom:5%;
+}
